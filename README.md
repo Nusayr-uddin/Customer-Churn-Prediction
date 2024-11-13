@@ -14,8 +14,6 @@ In this project, we use historical customer data to train a machine learning mod
 - [Installation](#installation)
 - [Usage](#usage)
 - [Model Evaluation](#model-evaluation)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Technologies Used
 
@@ -44,3 +42,26 @@ The dataset used for this project is a customer churn dataset, which can be foun
 
    ```bash
    git clone https://github.com/your-username/customer-churn-prediction.git
+
+## Usage
+Launch Jupyter Notebook or your preferred IDE.
+Open the notebook customer_churn_prediction.ipynb.
+Run the cells step by step to explore the data, train the model, and evaluate its performance.
+
+## Steps in the Notebook:
+Data Exploration: Analyzing the dataset, cleaning missing values, and feature engineering.
+Model Training: Training several machine learning models, including Logistic Regression, Random Forest, and XGBoost.
+Model Evaluation: Evaluating model performance using metrics like Accuracy, Precision, Recall, F1-Score, and ROC-AUC.
+Churn Prediction: Generating predictions for new customer data.
+
+## Model Evaluation
+The performance of the models is evaluated using several metrics:
+
+Accuracy: Proportion of correct predictions.
+Precision: How many predicted churns were actually churns.
+Recall: How many actual churns were correctly identified.
+F1-Score: A balance between precision and recall.
+ROC-AUC: The area under the ROC curve, showing the tradeoff between true positive rate and false positive rate.
+Contributing
+Contributions are welcome! Feel free to fork the repository, make changes, and submit pull requests. When making a contribution, please ensure your changes are well-documented, and include test cases if applicable.
+
